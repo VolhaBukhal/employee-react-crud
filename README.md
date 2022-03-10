@@ -1,3 +1,10 @@
+# Simple representation of CRUD operations concept is created
+
+Used technologies
+***
+ * ## React on classes
+ * ## Typescript
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
