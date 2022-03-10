@@ -1,4 +1,4 @@
-import React, {FC, Component} from 'react';
+import React, {Component} from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import AppInfo from './components/AppInfo';
@@ -6,66 +6,7 @@ import SearchPanel from './components/SearchPanel'
 import AppFilter from './components/AppFilter';
 import EmployeeList from './components/EmployeeList';
 import EmployeeAddForm from './components/EmployeeAddForm';
-import { convertToObject } from 'typescript';
 import {IEmployeeItem, Filters} from './type/types'
-
-// interface MyProps {
-//   name: string;
-//   surname: string;
-// }
-// type MyState = {
-//   year: number,
-//   text: string,
-//   role: string
-// }
-// class WhoAmI extends Component<MyProps, MyState> {
-//   constructor(props: MyProps) {
-//     super(props);
-//     this.state = {
-//       year: 36,
-//       text: '+++',
-//       role: ''
-//     }
-//     this.nextYear = this.nextYear.bind(this);
-//    }
-
-//   nextYear(){
-//     console.log('from nextYear', this)
-//     this.setState(state => ({
-//       year: state.year + 1
-//     }))
-//   }
-
-
-//   handleInput = (event: React.ChangeEvent<HTMLInputElement>, color: string) => {
-//     console.log(color);
-//     this.setState({
-//       role: (event.target as HTMLInputElement).value
-//     })
-//     // (event.target as HTMLInputElement).value = '';
-    
-//   }
-
-//   render () {
-//     const {name, surname} = this.props;
-//     const {year} = this.state;
-
-//     return (
-//       <div>
-//         <button onClick={this.nextYear}>{this.state.text}</button>
-//         <h1>My name is {name} {surname}, age - {year}, role - {this.state.role}</h1>
-//         {/* <a href={props.link} target="_blank" rel="noreferrer"> profile</a> */}
-//         <form>
-//           <span>Enter you role</span>
-//           <input type="text" onChange={(e) => this.handleInput(e, 'some color')}/>
-//         </form>
-//       </div>
-//       )
-//   }
-// } 
- 
-
-
 
 type MyState = {
   data: IEmployeeItem[],
