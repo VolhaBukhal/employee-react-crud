@@ -4,6 +4,8 @@ Used technologies
 ***
  * ## React on classes
  * ## Typescript
+ [demo](https://eloquent-knuth-dfc56d.netlify.app/)
+ ***
 
 # Getting Started with Create React App
 
